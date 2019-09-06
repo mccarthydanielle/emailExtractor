@@ -8,7 +8,6 @@ const parseEmails = data => {
   for (let item of moreUniqueEmails) {
     formatted.push({ email: item });
   }
-
   return formatted;
 };
 
