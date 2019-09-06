@@ -1,0 +1,15 @@
+{
+  "name": "emailexporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "readFiles.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.5.0",
+    "emails-in-string": "^2.0.0"
+  }
+}
