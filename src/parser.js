@@ -1,9 +1,7 @@
 const emailsInString = require('emails-in-string');
-const { readFiles } = require('./readFiles');
-const email = readFiles('emails.txt');
 
-const parseEmails = () => {
-  const uniqueEmails = emailsInString(email);
+const parseEmails = data => {
+  const uniqueEmails = emailsInString(data);
   const moreUniqueEmails = new Set(uniqueEmails);
   let formatted = [];
 
