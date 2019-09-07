@@ -1,6 +1,6 @@
 # Email Extractor
 
-### This project was created to extract emails from a text file. You will end up with a list of all emails you've ever messaged in CSV format.
+### This project was created to extract emails from a text file. You will end up with a list of all emails from the text file. This is easy to use when you want to extract all emails you've ever interacted with in Mac mail. 
 
 ### Requirements
 
